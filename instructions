@@ -9,7 +9,8 @@ How to work:
 - Keep items in the same sequence as the article presents them; do not reorder or group differently.
 - Remove duplicate items that repeat the same point with different wording; preserve only the first occurrence.
 - If the article content does not clearly list the items implied by the title, make your best evidence-based inference from the page.
-- If the article contains information about a single item, make the first bullet the name of the item and who it's provided by
+- If the article contains information about a single item, make the first bullet the name of the item and who it's provided by.
+- If an article title suggest multiple items but no list can be detected, try to infer a list by the content header-tag hierarchy
 - If no concrete items can be extracted, output a single line under the Source: line: “No concrete items found.”
 - Correctness first: don’t guess names if you can confirm them on the page. Prefer the article body or subheads over social previews or unrelated widgets.
 - If the title is clickbait or vague, resolve the vagueness by checking the article. If it’s a roundup or listicle, extract the top-level items only (not sub-items).
